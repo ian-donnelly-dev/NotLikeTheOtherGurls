@@ -9,11 +9,13 @@
 /[Aa]ssets/AssetStoreTools*
 /[Ll]ocal[Cc]ache/
 /[Uu]nityGenerated/
-/[Uu]serSettings/
+/[Uu]ser[Ss]ettings/
+/[Rr]ecordings/
 
 #IDEs
 [Aa]ssets/Plugins/Editor/JetBrains*
 .vs/
+.vscode/
 .gradle/
 
 #Meta files
@@ -46,7 +48,9 @@
 sysinfo.txt
 Assets/StreamingAssets/crashlytics-build.properties
 *.apk
+*.aab
 *.unitypackage
+*.app
 crashlytics-build.properties
 
 #Miscellaneous
@@ -58,3 +62,8 @@ crashlytics-build.properties
 Icon?
 ehthumbs.db
 Thumbs.db
+
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
