@@ -18,6 +18,8 @@
 .vscode/
 .gradle/
 
+/.idea/
+
 #Meta files
 *.meta
 
